@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Figure, Nav, Navbar } from "react-bootstrap"
 import AllProduct from "../components/Homepage/AllProduct"
-import Heros from "../components/Homepage/Heros"
 import Header from '../components/Homepage/Header';
 import HeaderNavbar from '../components/Heropage/Nav';
 import TopNav from '../components/Heropage/TopNav';
 import TwoCardComponent from '../components/Homepage/TwoImg';
 import ImageFooter from '../components/Homepage/footerImg';
 import Footer from '../components/Homepage/Footer';
+import HeroPage from '../components/Heropage/HeroPage';
 
 
 function App () {
@@ -49,7 +49,7 @@ backgroundColor: "#f4f8f1",
       <Header />
       <HeaderNavbar />
       <TopNav styles={styles} />
-     <Heros />
+      <HeroPage />
      <TwoCardComponent />
      <Header />
     <AllProduct />
