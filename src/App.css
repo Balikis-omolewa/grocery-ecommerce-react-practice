@@ -1,0 +1,27 @@
+/* styles.css */
+body{
+  background-color: #f4f8f1;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust the percentage as needed */
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 20px); /* For smaller screens, adjust as needed */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 1 1 100%; /* For very small screens */
+    }
+  }
+  

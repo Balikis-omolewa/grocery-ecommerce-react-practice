@@ -1,0 +1,28 @@
+/* HeroCarousel.css */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+    background-color: #f4f8f1; /* Optional: Set a background color for the hero section */
+  }
+  
+  .carousel {
+    width: 800px; /* Set the desired width for the carousel */
+  }
+  
+  .carousel-item {
+    height: 400px; /* Adjust the height of the carousel items as needed */
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: #f4f8f1; /* Optional: Add a semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
